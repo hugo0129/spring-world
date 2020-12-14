@@ -16,6 +16,7 @@
         <mysql.jdbc.version>8.0.22</mysql.jdbc.version>
         <junit.version>4.12</junit.version>
         <lombok.version>1.18.12</lombok.version>
+        <driud.verison>1.2.4</driud.verison>
     </properties>
 
     <dependencies>
@@ -74,6 +75,13 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.jdbc.version}</version>
+        </dependency>
+
+        <!--druid datasource manage start-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${driud.verison}</version>
         </dependency>
 
         <!--junit start-->
